@@ -105,7 +105,8 @@
           "buildTarget": "shell:esbuild:production"
         },
         "development": {
-          "buildTarget": "shell:esbuild:development"
+          "buildTarget": "shell:esbuild:development",
+          "proxyConfig": "apps/shell/proxy.config.json"
         }
       },
       "defaultConfiguration": "development",

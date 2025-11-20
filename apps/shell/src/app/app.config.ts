@@ -22,7 +22,7 @@ export const appConfig: ApplicationConfig = {
       }),
     ),
     provideDynamicNavigation(
-      'http://localhost:3000/navigation/config',
+      './api/navigation/config',
       APP_ROUTES,
       lazyFeatures
     ),

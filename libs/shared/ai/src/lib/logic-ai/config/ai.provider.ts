@@ -9,7 +9,7 @@ import { LazyFeatures } from "../../model-ai/ai.model";
 
 export const AI_BACKEND_URL = new InjectionToken<string>('AI_BACKEND_URL', {
   providedIn: 'root',
-  factory: () => 'http://localhost:3000/openai/navigation'
+  factory: () => './api/openai/navigation'
 });
 
 export const LAZY_FEATURES = new InjectionToken<LazyFeatures>('LAZY_FEATURES');
